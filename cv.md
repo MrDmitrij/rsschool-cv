@@ -17,6 +17,14 @@
   - HTML/CSS
   - Git
   - A little knowledge of: JavaScript, VIP
+- ## Code example
+
+function getMiddle(s)
+{
+let middle = s.length/2
+let str = Number.isInteger(middle)? s.slice(middle-1,middle+1):s[Math.floor(middle)]
+return str
+}
 
 - ## Work experience
   _2017 - current time_ | System analytic
