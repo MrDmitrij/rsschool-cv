@@ -7,8 +7,19 @@
 .wrapper {
   max-width: 1200px;
   margin: 0 auto;
-  gap: 20px;
+  gap: 40px;
   /* background:rosybrown; */
+}
+
+nav {
+  width: 100%;
+}
+
+nav > ul {
+  display: flex;
+  justify-content: space-evenly;
+  list-style-type: none;
+  padding: 0;
 }
 
 #main-cont {
@@ -40,6 +51,7 @@ footer,
   height: 254px;
 }
 
+h2,
 h3 {
   border-bottom: var(--main-color) 3px solid;
   padding-bottom: 10px;
