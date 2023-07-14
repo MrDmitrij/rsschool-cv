@@ -51,6 +51,7 @@ footer,
   height: 254px;
 }
 
+h2,
 h3 {
   border-bottom: var(--main-color) 3px solid;
   padding-bottom: 10px;
